@@ -4,11 +4,11 @@ function axiosInstence() {
     let token = localStorage.getItem("etoken")
 
     return axios.create({
-        baseURL: "http://localhost:8000",
+        baseURL: import.meta.env.VITE_API_URL, // ✅ Uses live URL from Vercel or .env
         headers: {
             "Content-Type": "Application/json",
             "Authorization": `Bearer ${token}`,
-            "Accept": "*"
+            "Accept": "*/*"
         }
     })
 }
