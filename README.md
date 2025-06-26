@@ -4,6 +4,13 @@ This is a full-stack **Clinic Management System** built with the **MERN stack** 
 
 ---
 
+## 🔍 Project Demo
+
+🌐 Live site - https://clinic-management-system-ten.vercel.app/
+
+Check out the full walkthrough video here:  
+👉 [Demo on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7343662910641995776/)
+
 
 ## 📝 Overview
 
